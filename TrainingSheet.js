@@ -19,13 +19,6 @@ for (let index = 0; index < people.length; index++) {
     console.log(person);
 }
 
-console.log("Task: E");
-
-for (let index = people.length - 1; index >= 0; index--) {
-    let person = people[index];
-    console.log(person);
-}
-
 /*
     Task: A
     Write code that prints the sentence "Debugging is like being a detective in a crime drama where you are also the murderer" 
