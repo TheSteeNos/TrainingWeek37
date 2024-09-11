@@ -106,6 +106,7 @@ console.log(" ");
 console.log("Task: F");
 console.log(" ");
 
+let familyPhoneNumbers = ["95044693", "95168817", "47152881", "40319098"]
 
 /*
     Task: G
@@ -114,6 +115,8 @@ console.log(" ");
 console.log(" ");
 console.log("Task: G");
 console.log(" ");
+
+console.log(familyPhoneNumbers.slice(-4))
 
 /*
     Task: H
