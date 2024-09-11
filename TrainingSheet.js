@@ -19,6 +19,12 @@ for (let index = 0; index < people.length; index++) {
     console.log(person);
 }
 
+console.log("Task: E");
+
+for (let index = people.length - 1; index >= 0; index--) {
+    let person = people[index];
+    console.log(person);
+}
 
 /*
     Task: A
@@ -80,7 +86,10 @@ console.log("5673 + 234 = " + add(5673, 234));
 */
 console.log("Task: E");
 
-
+for (let index = people.length - 1; index >= 0; index--) {
+    let person = people[index];
+    console.log(person);
+}
 
 /*
     Task: F
