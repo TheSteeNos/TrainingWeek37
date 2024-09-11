@@ -116,7 +116,7 @@ console.log(" ");
 console.log("Task: G");
 console.log(" ");
 
-console.log(familyPhoneNumbers.slice(-4))
+console.log(familyPhoneNumbers.slice(-1))
 
 /*
     Task: H
