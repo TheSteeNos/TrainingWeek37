@@ -81,9 +81,10 @@ console.log(" ");
 console.log("Task: D");
 console.log(" ");
 
-// write your function here.
-
-
+function add(num1, num2) {
+    let sum = num1 + num2;
+    return sum
+}
 
 console.log("3 + 6 = " + add(3, 6));
 console.log("5673 + 234 = " + add(5673, 234));
@@ -97,6 +98,7 @@ console.log("5673 + 234 = " + add(5673, 234));
 console.log(" ");
 console.log("Task: E");
 console.log(" ");
+
 for (let index = people.length - 1; index >= 0; index--) {
     let person = people[index];
     console.log(person);
